@@ -24,3 +24,11 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+.ti-cursor {
+  font-size: 5rem !important; /* Increase cursor size */
+  line-height: 1;
+  font-weight: 100;
+  animation: blink 0.7s infinite;
+}
