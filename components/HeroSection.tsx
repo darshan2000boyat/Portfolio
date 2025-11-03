@@ -1,5 +1,5 @@
 import React from "react";
-import Character3D from "@/app/Character3D";
+import Character3D from "@/components/Character3D";
 import { FaEnvelope, FaGithub, FaLinkedin, FaPhone } from "react-icons/fa";
 import TypingAnimation from "./TypingAnimation";
 
@@ -13,7 +13,9 @@ const HeroSection = () => {
             {/* <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6 bg-gradient-to-r from-purple-400 via-pink-400 to-purple-400 bg-clip-text text-transparent">
               Full Stack Developer
             </h1> */}
+            <div className="min-h-32">
             <TypingAnimation />
+            </div>
             <p className="text-xl sm:text-2xl text-gray-300 mb-8">
               Building scalable web applications with modern technologies
             </p>
@@ -52,9 +54,10 @@ const HeroSection = () => {
           </div>
 
           {/* Right side - 3D Character */}
-          <div className="flex justify-center lg:justify-end">
-            <div className="w-full max-w-md h-96 lg:h-[500px] overflow-hidden">
+          <div className="flex justify-center lg:justify-end select-none">
+            <div className="relative w-full max-w-md h-96 lg:h-[500px] overflow-auto sm:overflow-hidden sm:max-h-none max-h-96">
               <Character3D />
+              <div className="lg:hidden w-full h-96 absolute left-0 top-0"></div>
             </div>
           </div>
         </div>

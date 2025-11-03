@@ -2,7 +2,7 @@ import { Canvas } from "@react-three/fiber";
 import { OrbitControls, useGLTF, Html, Environment } from "@react-three/drei";
 import { Suspense, useEffect, useRef } from "react";
 import gsap from "gsap";
-import * as THREE from "three";
+
 
 function Model() {
   const { scene } = useGLTF("/character.glb");
