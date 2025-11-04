@@ -20,16 +20,24 @@ const ProjectSection = () => {
       link: null,
     },
     {
+      name: "Virifi",
+      tech: "React, TypeScript, Spring Boot, MySQL, Blockchain",
+      period: "May 2024 – Dec 2024",
+      description:
+        "Developed a decentralized identity verification platform using blockchain technology. Implemented secure user authentication and data management features.",
+      link: "https://virifi.io/",
+    },
+    {
       name: "Dairydreams.shop",
       tech: "Next.js 14, TypeScript, Firebase, TailwindCSS",
-      period: "Oct 2024 – Dec 2024",
+      period: "March 2024 – May 2024",
       description:
         "Built an eCommerce site with payment gateway, filtering, search, and authentication. (Freelance)",
       link: "https://dairydreams.shop",
     },
     {
       name: "Brain Inventory",
-      tech: "Next.js, AWS S3, Amplify, Lambda",
+      tech: "Next.js 12, Core Web Vitals, AWS S3, Amplify, Lambda",
       period: "May 2023 – Jan 2024",
       description:
         "Developed a lead-gen company website optimized for search engines and performance. Connected a WordPress blog to Next.js frontend with serverless AWS support.",
@@ -37,7 +45,7 @@ const ProjectSection = () => {
     },
     {
       name: "Numetric.work",
-      tech: "Angular, TypeScript, Spring Boot, MySQL",
+      tech: "React, TypeScript, Spring Boot, MySQL",
       period: "Nov 2023 – Jan 2024",
       description:
         "Developed a portfolio and job listing platform for creative professionals. Implemented user dashboards, job filtering, and Firebase-based auth and storage.",
